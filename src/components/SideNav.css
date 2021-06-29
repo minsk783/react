@@ -1,0 +1,29 @@
+.app-sidenav {
+    height: 100%;
+    width: 278px;
+    background-color: #2C343F;
+    overflow-x: hidden;
+    text-align: center;
+    display: flex;
+}
+  
+.app-sidenav .app-sidenav-filter {
+    height: max-content;
+    width: 100%;
+    margin: auto;
+    list-style: none;
+}
+  
+.app-sidenav-filter a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #789696;
+    display: block;
+    justify-content: center;
+    padding: 20px;
+}
+  
+.app-sidenav-filter a:hover {
+    color: white;
+    background-color: #17B5BE;
+}
